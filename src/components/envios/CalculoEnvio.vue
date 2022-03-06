@@ -185,13 +185,16 @@ export default {
     },
     methods: {
         precioKg(valorKg_) {
-            this.precioPorKilo = valorKg_*this.precioKgEstablecido
-
+            const calPrecio = valorKg_*this.precioKgEstablecido
+            if(calPrecio < this.precioKgEstablecido && calPrecio > 0) { this.precioPorKilo = this.precioKgEstablecido} 
+            else ( this.precioPorKilo = calPrecio )
             this.notify.$emit('precioPorLosKilos', this.precioPorKilo)
         },
         precioVolumen() {         
             const kilogramoPorVolumen = (this.valorAltura * this.valorAncho * this.valorProfundidad)/this.montoParaDividir
-            this.precioPorVolumen =  kilogramoPorVolumen*this.precioKgEstablecido
+            const calPrecio =  kilogramoPorVolumen*this.precioKgEstablecido
+            if(calPrecio < this.precioKgEstablecido && calPrecio > 0) { this.precioPorVolumen = this.precioKgEstablecido } 
+            else ( this.precioPorVolumen = calPrecio )
             this.notify.$emit('precioPorElVolumen', this.precioPorVolumen)
         },
         clickLinkCiudadesPrincipales () {
