@@ -50,7 +50,7 @@
                         <input class="input-calc-price" type="number" v-model="valorAncho">
                     </div>
                     <div class="is-flex is-justify-content-space-between w-80-envie m-cero-auto">
-                        <label>Profundida</label>
+                        <label>Profundidad</label>
                         <input class="input-calc-price" type="number" v-model="valorProfundidad">
                     </div>
                 </div>

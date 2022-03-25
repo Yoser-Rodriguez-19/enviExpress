@@ -2,12 +2,12 @@
   <div>
     <Layout></Layout>
     <div class="title-mobile is-hidden-tablet">
-      <p>Envía tu <b>encomienda</b> fácil rápido y seguro</p>
+      <p>Envía tu <b class="animate__animated animate__fadeInRightBig">encomienda</b> fácil rápido y seguro</p>
     </div>
     <div>
       <div class="is-flex is-flex-direction-column bg-content-header">
         <div class="title-desktop is-hidden-mobile">
-          <p class="title-envie">Envía tu <b>encomienda</b> fácil rápido y seguro</p>
+          <p class="title-envie">Envía tu <b class="animate__animated animate__fadeInRightBig">encomienda</b> fácil rápido y seguro</p>
         </div>
         <div class="is-flex form-credit mb-6 container-box-credit-fixed animate__animated animate__backInLeft">
           <div class="is-flex is-flex-direction-column content-box-envi content-box-envi-2">

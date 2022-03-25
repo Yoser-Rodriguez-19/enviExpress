@@ -22,8 +22,8 @@
 
       <div class="is-flex is-flex-direction-column container-content-a2 mb-6">
         <p class="mb-4 is-size-5">NUESTRO HORARIO EN COLOMBIA:</p>
-        <g-link class="mb-3">Lunes a Viernes de 9 AM a 6 PM.</g-link>
-        <g-link class="mb-3">Sábado de 9 AM a 3 PM</g-link>
+        <g-link class="mb-3">Lunes a Viernes de 10 AM a 7 PM.</g-link>
+        <g-link class="mb-3">Sábado de 11 AM a 7 PM</g-link>
       </div>
 
       <div class="is-flex is-flex-direction-column container-content-a2 mb-6">

@@ -22,11 +22,11 @@
   const loader = new Loader({
     apiKey: "AIzaSyCZ0fu3rxYeUT_fBNPECu3RkzTnbEfTWSE",
   });
-  const coord = {lat: 4.7564113, lng: -74.0451511}
+  const coord = {lat: 4.757674, lng: -74.045084}
   const mapOptions = {
     center: {
-      lat: 4.7564113,
-      lng: -74.0451511
+      lat: 4.757674,
+      lng: -74.045084
     },
     zoom: 14
   };
