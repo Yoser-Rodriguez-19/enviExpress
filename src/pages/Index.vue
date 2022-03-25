@@ -222,7 +222,61 @@ export default {
     Footer,
   },
   metaInfo: {
-    title: 'enviExpress'
+    title: 'EnviExpress',
+    meta: [
+        { key: 'EnvieExpress', name: 'EnvieExpress', content: 'Envios de encomiendas a toda Venezuela' },
+        { key: 'og:https://enviexpress.vercel.app/', property: 'og:https://enviexpress.vercel.app/', content: 'Envios de encomiendas a toda Venezuela' },
+        {
+          key: 'og:title',
+          property: 'og:title',
+          content: 'EnviExpress'
+        },
+        {
+          key: 'og:type',
+          property: 'og:type',
+          content: 'Envios de encomiendas a toda Venezuela'
+        },
+        {
+          key: 'og:EnvieExpress',
+          property: 'og:EnvieExpress',
+          content: 'Envios de encomiendas a toda Venezuela'
+        },
+        {
+          key: 'og:image',
+          property: 'og:image',
+          content: '../favicon.png'
+        },
+        {
+          key: 'og:image:width',
+          property: 'og:image:width',
+          content: '../favicon.png'
+        },
+        {
+          key: 'og:image:height',
+          property: 'og:image:height',
+          content: '../favicon.png'
+        },
+        {
+          key: 'twitter:EnvieExpress',
+          name: 'twitter:EnvieExpress',
+          content: 'Envios de encomiendas a toda Venezuela'
+        },
+        {
+          key: 'twitter:card',
+          name: 'twitter:card',
+          content: '../favicon.png'
+        },
+        {
+          key: 'twitter:image',
+          property: 'twitter:image',
+          content: '../favicon.png'
+        },
+        {
+          key: 'twitter:title',
+          property: 'twitter:title',
+          content: 'EmviExpress'
+        }
+      ],
   },
   created () {
     this.notify.$on('refreshPrice', () => {
