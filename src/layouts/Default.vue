@@ -69,6 +69,15 @@ export default {
       menuAccompaniment: false
     }
   },
+  metaInfo: {
+    title: 'EnviExpress',
+    meta: [
+      {
+        name: 'EnviExpress',
+        content: 'Envios de encomiendas a toda Venezuela'
+      }
+    ],
+  },
   components: {
     BtnCreateAcount
   },
