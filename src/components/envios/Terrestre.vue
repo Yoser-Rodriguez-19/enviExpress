@@ -93,26 +93,19 @@ export default {
     padding-right: 10px;
 }
 .option-send-mobile {
-    background: #151D4E;
-    color: white!important;;
-    border-radius: 10px;
-    border: none;
-    padding: 10px;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background: #151D4E!important;
+    color: white!important;
+    border-radius: 10px!important;
+    border: none!important;
+    padding: 10px!important;
+    width: 100%!important;
+    height: 100%!important;
 }
 .option-send-mobile .dropdown-item p {
     color: white!important;;
     font-size: 14px;
     font-weight: 700;
     text-align: center;
-    margin: 0;
-    padding: 0;
 }
 .option-send-mobile .dropdown-item p strong a{
     color: #F64A01!important;
