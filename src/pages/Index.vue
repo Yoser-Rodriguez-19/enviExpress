@@ -392,7 +392,7 @@ html {
   color: rgb(173, 175, 175)!important;
 }
 .text-select {
-  /* color: #4058E9!important; */
+  color: #F64A01!important;
   border-bottom: 2px solid #4058E9;
 }
 .bg-select {
