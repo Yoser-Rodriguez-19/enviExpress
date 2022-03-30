@@ -1,12 +1,12 @@
 <template>
     <div>
-        <div class="description-links-1 is-justify-content-center mt-3">
+        <div class="description-links-1 flex-directions-mobile is-justify-content-center mt-4">
             <div class="dropdown is-hoverable">
                 <div class="dropdown-trigger">
                     <button aria-haspopup="true" aria-controls="dropdown-menu4" @click="clickLinkCiudadesPrincipales"><div class="" :class="link_ciudades_principales ? 'bg-select' : ''"></div><span :class="link_ciudades_principales ? 'text-select-ciudad' : ''" class="text-cuidad-mobile">Ciudades Principales</span>
-                        <span class="icon is-small">
+                        <!-- <span class="icon is-small">
                             <i class="fas fa-angle-down" aria-hidden="true"></i>
-                        </span>
+                        </span> -->
                     </button>
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu4" role="menu">
@@ -279,7 +279,15 @@ export default {
 }
 @media (max-width: 1105px) {
     .text-cuidad-mobile {
-        font-size: 12px;
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .flex-directions-mobile {
+        flex-direction: column;
+        align-items: center;
     }
 }
 </style>

@@ -417,7 +417,8 @@ html {
 }
 .description-links-1 {
   display: flex;
-  gap: 25px;
+  font-size: 13px;
+  gap: 15px;
 }
 .description-links-2 {
   display: flex;
@@ -660,6 +661,10 @@ html {
   }
 }
 @media (min-width: 768px) {
+  .description-links-1 {
+    font-size: 16px;
+    gap: 25px;
+  }
   .container-slider {
     flex-direction: row;
   }

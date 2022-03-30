@@ -134,7 +134,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  padding: 0 40px;
+  padding: 0 20px;
   /* border-bottom: 1px solid #4058E9; */
 }
 
